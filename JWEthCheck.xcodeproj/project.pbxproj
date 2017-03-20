@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58E9B2C202B7017662D64F3E /* libPods-JWEthCheck.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35505749991C30D31DA6F301 /* libPods-JWEthCheck.a */; };
+		80C961061E7A56E600E1E20F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C961051E7A56E600E1E20F /* AppDelegate.m */; };
+		80C9610C1E7A56E600E1E20F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C9610B1E7A56E600E1E20F /* ViewController.m */; };
+		80C9610E1E7A56E700E1E20F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80C9610D1E7A56E600E1E20F /* Assets.xcassets */; };
+		80C9611C1E7A56E700E1E20F /* JWEthCheckTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C9611B1E7A56E700E1E20F /* JWEthCheckTests.m */; };
+		80C961271E7A56E700E1E20F /* JWEthCheckUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C961261E7A56E700E1E20F /* JWEthCheckUITests.m */; };
+		80C961391E7A652D00E1E20F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C961081E7A56E600E1E20F /* main.m */; };
+		80C9613C1E7A67C100E1E20F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C9613A1E7A67C100E1E20F /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80C961181E7A56E700E1E20F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80C960F91E7A56E600E1E20F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80C961001E7A56E600E1E20F;
+			remoteInfo = JWEthCheck;
+		};
+		80C961231E7A56E700E1E20F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80C960F91E7A56E600E1E20F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80C961001E7A56E600E1E20F;
+			remoteInfo = JWEthCheck;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		35505749991C30D31DA6F301 /* libPods-JWEthCheck.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JWEthCheck.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5903667E47F98048F2AC10DB /* Pods-JWEthCheck.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWEthCheck.release.xcconfig"; path = "Pods/Target Support Files/Pods-JWEthCheck/Pods-JWEthCheck.release.xcconfig"; sourceTree = "<group>"; };
+		80C961011E7A56E600E1E20F /* JWEthCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWEthCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80C961041E7A56E600E1E20F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		80C961051E7A56E600E1E20F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		80C961081E7A56E600E1E20F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		80C9610A1E7A56E600E1E20F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		80C9610B1E7A56E600E1E20F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		80C9610D1E7A56E600E1E20F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80C961121E7A56E700E1E20F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80C961171E7A56E700E1E20F /* JWEthCheckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWEthCheckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80C9611B1E7A56E700E1E20F /* JWEthCheckTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWEthCheckTests.m; sourceTree = "<group>"; };
+		80C9611D1E7A56E700E1E20F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80C961221E7A56E700E1E20F /* JWEthCheckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWEthCheckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80C961261E7A56E700E1E20F /* JWEthCheckUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWEthCheckUITests.m; sourceTree = "<group>"; };
+		80C961281E7A56E700E1E20F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80C9613B1E7A67C100E1E20F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6AD207247AE71B21D561357 /* libPods-JWEthCheckTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JWEthCheckTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE1C636D6F50AC71265C705 /* Pods-JWEthCheck.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWEthCheck.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JWEthCheck/Pods-JWEthCheck.debug.xcconfig"; sourceTree = "<group>"; };
+		FDBEB88C6D9EF749DC28E422 /* libPods-JWEthCheckUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JWEthCheckUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80C960FE1E7A56E600E1E20F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58E9B2C202B7017662D64F3E /* libPods-JWEthCheck.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80C961141E7A56E700E1E20F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80C9611F1E7A56E700E1E20F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		453A999AD99F83B56E67FCF2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EEE1C636D6F50AC71265C705 /* Pods-JWEthCheck.debug.xcconfig */,
+				5903667E47F98048F2AC10DB /* Pods-JWEthCheck.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		80C960F81E7A56E600E1E20F = {
+			isa = PBXGroup;
+			children = (
+				80C961031E7A56E600E1E20F /* JWEthCheck */,
+				80C9611A1E7A56E700E1E20F /* JWEthCheckTests */,
+				80C961251E7A56E700E1E20F /* JWEthCheckUITests */,
+				80C961021E7A56E600E1E20F /* Products */,
+				453A999AD99F83B56E67FCF2 /* Pods */,
+				FB2849D1A4FF893CA8780511 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		80C961021E7A56E600E1E20F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80C961011E7A56E600E1E20F /* JWEthCheck.app */,
+				80C961171E7A56E700E1E20F /* JWEthCheckTests.xctest */,
+				80C961221E7A56E700E1E20F /* JWEthCheckUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80C961031E7A56E600E1E20F /* JWEthCheck */ = {
+			isa = PBXGroup;
+			children = (
+				80C961041E7A56E600E1E20F /* AppDelegate.h */,
+				80C961051E7A56E600E1E20F /* AppDelegate.m */,
+				80C9610A1E7A56E600E1E20F /* ViewController.h */,
+				80C9610B1E7A56E600E1E20F /* ViewController.m */,
+				80C9610D1E7A56E600E1E20F /* Assets.xcassets */,
+				80C9613A1E7A67C100E1E20F /* Main.storyboard */,
+				80C961121E7A56E700E1E20F /* Info.plist */,
+				80C961071E7A56E600E1E20F /* Supporting Files */,
+			);
+			path = JWEthCheck;
+			sourceTree = "<group>";
+		};
+		80C961071E7A56E600E1E20F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80C961081E7A56E600E1E20F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		80C9611A1E7A56E700E1E20F /* JWEthCheckTests */ = {
+			isa = PBXGroup;
+			children = (
+				80C9611B1E7A56E700E1E20F /* JWEthCheckTests.m */,
+				80C9611D1E7A56E700E1E20F /* Info.plist */,
+			);
+			path = JWEthCheckTests;
+			sourceTree = "<group>";
+		};
+		80C961251E7A56E700E1E20F /* JWEthCheckUITests */ = {
+			isa = PBXGroup;
+			children = (
+				80C961261E7A56E700E1E20F /* JWEthCheckUITests.m */,
+				80C961281E7A56E700E1E20F /* Info.plist */,
+			);
+			path = JWEthCheckUITests;
+			sourceTree = "<group>";
+		};
+		FB2849D1A4FF893CA8780511 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35505749991C30D31DA6F301 /* libPods-JWEthCheck.a */,
+				D6AD207247AE71B21D561357 /* libPods-JWEthCheckTests.a */,
+				FDBEB88C6D9EF749DC28E422 /* libPods-JWEthCheckUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80C961001E7A56E600E1E20F /* JWEthCheck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80C9612B1E7A56E700E1E20F /* Build configuration list for PBXNativeTarget "JWEthCheck" */;
+			buildPhases = (
+				64CB3D77CA5D151A1DC650C0 /* [CP] Check Pods Manifest.lock */,
+				80C960FD1E7A56E600E1E20F /* Sources */,
+				80C960FE1E7A56E600E1E20F /* Frameworks */,
+				80C960FF1E7A56E600E1E20F /* Resources */,
+				F511D43FB540255899E0FE07 /* [CP] Embed Pods Frameworks */,
+				0426C261E7ED575D6D92E6B7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JWEthCheck;
+			productName = JWEthCheck;
+			productReference = 80C961011E7A56E600E1E20F /* JWEthCheck.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80C961161E7A56E700E1E20F /* JWEthCheckTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80C9612E1E7A56E700E1E20F /* Build configuration list for PBXNativeTarget "JWEthCheckTests" */;
+			buildPhases = (
+				80C961131E7A56E700E1E20F /* Sources */,
+				80C961141E7A56E700E1E20F /* Frameworks */,
+				80C961151E7A56E700E1E20F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80C961191E7A56E700E1E20F /* PBXTargetDependency */,
+			);
+			name = JWEthCheckTests;
+			productName = JWEthCheckTests;
+			productReference = 80C961171E7A56E700E1E20F /* JWEthCheckTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80C961211E7A56E700E1E20F /* JWEthCheckUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80C961311E7A56E700E1E20F /* Build configuration list for PBXNativeTarget "JWEthCheckUITests" */;
+			buildPhases = (
+				80C9611E1E7A56E700E1E20F /* Sources */,
+				80C9611F1E7A56E700E1E20F /* Frameworks */,
+				80C961201E7A56E700E1E20F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80C961241E7A56E700E1E20F /* PBXTargetDependency */,
+			);
+			name = JWEthCheckUITests;
+			productName = JWEthCheckUITests;
+			productReference = 80C961221E7A56E700E1E20F /* JWEthCheckUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80C960F91E7A56E600E1E20F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "진우 이";
+				TargetAttributes = {
+					80C961001E7A56E600E1E20F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2UN5RJ5RA9;
+						ProvisioningStyle = Automatic;
+					};
+					80C961161E7A56E700E1E20F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2UN5RJ5RA9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 80C961001E7A56E600E1E20F;
+					};
+					80C961211E7A56E700E1E20F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2UN5RJ5RA9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 80C961001E7A56E600E1E20F;
+					};
+				};
+			};
+			buildConfigurationList = 80C960FC1E7A56E600E1E20F /* Build configuration list for PBXProject "JWEthCheck" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80C960F81E7A56E600E1E20F;
+			productRefGroup = 80C961021E7A56E600E1E20F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80C961001E7A56E600E1E20F /* JWEthCheck */,
+				80C961161E7A56E700E1E20F /* JWEthCheckTests */,
+				80C961211E7A56E700E1E20F /* JWEthCheckUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80C960FF1E7A56E600E1E20F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80C9610E1E7A56E700E1E20F /* Assets.xcassets in Resources */,
+				80C9613C1E7A67C100E1E20F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80C961151E7A56E700E1E20F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80C961201E7A56E700E1E20F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0426C261E7ED575D6D92E6B7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JWEthCheck/Pods-JWEthCheck-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64CB3D77CA5D151A1DC650C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F511D43FB540255899E0FE07 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JWEthCheck/Pods-JWEthCheck-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80C960FD1E7A56E600E1E20F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80C9610C1E7A56E600E1E20F /* ViewController.m in Sources */,
+				80C961391E7A652D00E1E20F /* main.m in Sources */,
+				80C961061E7A56E600E1E20F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80C961131E7A56E700E1E20F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80C9611C1E7A56E700E1E20F /* JWEthCheckTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80C9611E1E7A56E700E1E20F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80C961271E7A56E700E1E20F /* JWEthCheckUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80C961191E7A56E700E1E20F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80C961001E7A56E600E1E20F /* JWEthCheck */;
+			targetProxy = 80C961181E7A56E700E1E20F /* PBXContainerItemProxy */;
+		};
+		80C961241E7A56E700E1E20F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80C961001E7A56E600E1E20F /* JWEthCheck */;
+			targetProxy = 80C961231E7A56E700E1E20F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80C9613A1E7A67C100E1E20F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C9613B1E7A67C100E1E20F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80C961291E7A56E700E1E20F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		80C9612A1E7A56E700E1E20F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		80C9612C1E7A56E700E1E20F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEE1C636D6F50AC71265C705 /* Pods-JWEthCheck.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2UN5RJ5RA9;
+				INFOPLIST_FILE = JWEthCheck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.binarywoo.JWEthCheck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		80C9612D1E7A56E700E1E20F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5903667E47F98048F2AC10DB /* Pods-JWEthCheck.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2UN5RJ5RA9;
+				INFOPLIST_FILE = JWEthCheck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.binarywoo.JWEthCheck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		80C9612F1E7A56E700E1E20F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2UN5RJ5RA9;
+				INFOPLIST_FILE = JWEthCheckTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.binarywoo.JWEthCheckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JWEthCheck.app/Contents/MacOS/JWEthCheck";
+			};
+			name = Debug;
+		};
+		80C961301E7A56E700E1E20F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2UN5RJ5RA9;
+				INFOPLIST_FILE = JWEthCheckTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.binarywoo.JWEthCheckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JWEthCheck.app/Contents/MacOS/JWEthCheck";
+			};
+			name = Release;
+		};
+		80C961321E7A56E700E1E20F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2UN5RJ5RA9;
+				INFOPLIST_FILE = JWEthCheckUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.binarywoo.JWEthCheckUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JWEthCheck;
+			};
+			name = Debug;
+		};
+		80C961331E7A56E700E1E20F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2UN5RJ5RA9;
+				INFOPLIST_FILE = JWEthCheckUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.binarywoo.JWEthCheckUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JWEthCheck;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80C960FC1E7A56E600E1E20F /* Build configuration list for PBXProject "JWEthCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80C961291E7A56E700E1E20F /* Debug */,
+				80C9612A1E7A56E700E1E20F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80C9612B1E7A56E700E1E20F /* Build configuration list for PBXNativeTarget "JWEthCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80C9612C1E7A56E700E1E20F /* Debug */,
+				80C9612D1E7A56E700E1E20F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80C9612E1E7A56E700E1E20F /* Build configuration list for PBXNativeTarget "JWEthCheckTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80C9612F1E7A56E700E1E20F /* Debug */,
+				80C961301E7A56E700E1E20F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80C961311E7A56E700E1E20F /* Build configuration list for PBXNativeTarget "JWEthCheckUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80C961321E7A56E700E1E20F /* Debug */,
+				80C961331E7A56E700E1E20F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80C960F91E7A56E600E1E20F /* Project object */;
+}
